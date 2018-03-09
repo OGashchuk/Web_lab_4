@@ -1,0 +1,94 @@
+.main{
+	width: 600px;
+	height: 450px;
+	border: 4px solid  #3366ff;
+	margin: 0 auto;
+}
+
+.one, .two, .three{
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	width: 33%;
+	height: 85%;
+}
+
+.two{
+	border-left: 1px solid  #3366ff;
+	border-right: 1px solid  #3366ff;
+	position: relative;
+}
+.kvadrat{
+	margin: 4px;
+	width: 36px;
+	height: 36px;
+	background: #3366ff;
+	float: left;
+}
+div{
+	font-family:'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.p_1{
+	padding-top: 40px;
+	padding-left: 65px;
+}
+.clear{
+	clear: both;
+}
+
+.kvadrat_2{
+	margin: 4px;
+	width: 36px;
+	height: 36px;
+	background: #3366ff;
+	margin-left: 40px;
+	float: left;
+}
+.kvadrat_3{
+	margin: 4px;
+	width: 36px;
+	height: 36px;
+	background: #3366ff;
+	margin-top: 80px;
+	float: right;
+}
+
+.kvadrat_4{
+	width: 36px;
+	height: 36px;
+	background: #3366ff;
+	margin: 4px;
+	position: absolute;
+	top:24px;
+	left: 107px;
+	z-index: 10;	
+}
+
+.p_2{
+	position: absolute;
+	left: 50px;
+	margin-top: 40px;
+	text-align: center;
+	z-index: 20;
+}
+.p_3{
+	
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	top: 86px;
+	
+
+}
+.kvadrat_5{
+	width: 36px;
+	height: 36px;
+	background: #3366ff;
+	margin: 4px;
+	position: relative;
+	top: 160px;
+	left: 80px;
+	z-index: 1;
+}
